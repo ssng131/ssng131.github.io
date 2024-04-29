@@ -33,6 +33,13 @@
         <section>
             <h2>보안 개론 Lab1</h2>
             <h3>프로젝트 소개</h3>
-            <img src="C:\oss_portfolio\images\녹음 2024-04-29 204519.gif">
+            <p>SQL Injection, XSS, Parameter 위변조 실습</p>
+            <h3>풀이 과정</h3>
+            <p>1. id값에 다양한 bypass 구문을 넣어도 하나도 성공하지 못한다는 부분에서 password 부분을 공략해야겠다고 생각</p>
+            <p>2. password에 무조건 참이 되는 쿼리(" or userid="admin)를 삽입.</p>
+            <p>3. 위의 구문을 삽입하면 password="" or userid="admin"이라는 쿼리가 실행되어 무조건 참</p>
+            <p>4. 하지만 되지 않았고, 혹시 or을 필터링 했나 싶어 ||로 교체하고, 쓸모없는 공백을 제거하니 성공</p>
+            <p>삽입한 쿼리는 "||userid="admin </p>
+            <img src="images\녹음 2024-04-29 204519.gif">
     </section>
 </body>
