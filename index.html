@@ -1,8 +1,48 @@
 <!DOCTYPE html>
 <body>
-    <header>
-        <h1>송숭우의 포트폴리오</h1>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>송숭우의 포트폴리오</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f8f9fa;
+                color: #343a40;
+            }
+            header {
+                background-color: #343a40;
+                color: #ffffff;
+                text-align: center;
+                padding: 20px 0;
+            }
+            section {
+                margin: 20px;
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+            h2 {
+                border-bottom: 2px solid #343a40;
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+            }
+            h3 {
+                margin-top: 20px;
+            }
+            p {
+                line-height: 1.6;
+            }
+        </style>
+    </head>
     <section>
         <h2>About Me</h2>
         <section style="display: flex;">
@@ -34,7 +74,7 @@
             <h2>보안 개론 Lab1</h2>
             <h3>프로젝트 소개</h3>
             <p>SQL Injection, XSS, Parameter 위변조 실습</p>
-            <h3>풀이 과정</h3>
+            <h3>SQL Injection 풀이 과정</h3>
             <p>1. id값에 다양한 bypass 구문을 넣어도 하나도 성공하지 못한다는 부분에서 password 부분을 공략해야겠다고 생각</p>
             <p>2. password에 무조건 참이 되는 쿼리(" or userid="admin)를 삽입.</p>
             <p>3. 위의 구문을 삽입하면 password="" or userid="admin"이라는 쿼리가 실행되어 무조건 참</p>
