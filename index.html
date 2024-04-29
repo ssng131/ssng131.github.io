@@ -1,85 +1,90 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>송숭우의 포트폴리오</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        section {
+            margin: 20px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        h2 {
+            border-bottom: 2px solid #343a40;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
 <body>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>송숭우의 포트폴리오</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f8f9fa;
-                color: #343a40;
-            }
-            header {
-                background-color: #343a40;
-                color: #ffffff;
-                text-align: center;
-                padding: 20px 0;
-            }
-            section {
-                margin: 20px;
-                background-color: #ffffff;
-                padding: 20px;
-                border-radius: 10px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-            img {
-                max-width: 100%;
-                height: auto;
-                border-radius: 5px;
-            }
-            h2 {
-                border-bottom: 2px solid #343a40;
-                padding-bottom: 10px;
-                margin-bottom: 20px;
-            }
-            h3 {
-                margin-top: 20px;
-            }
-            p {
-                line-height: 1.6;
-            }
-        </style>
-    </head>
+    <header>
+        <h1>송숭우의 포트폴리오</h1>
+    </header>
     <section>
         <h2>About Me</h2>
-        <section style="display: flex;">
-            <img src="https://i.mydramalist.com/kwW2w_5c.jpg">
-            <p>안녕하세요! 저는 보안 분야에 열정을 품은 대학생 송숭우입니다.
-                컴퓨터와 네트워크 보안에 대한 끊임없는 탐구와 관심을 가지고 있습니다.
-                현재는 학업을 중심으로 이론과 실습을 통해 보안 기술을 깊이 있게 이해하고 있습니다.
-                저의 보안에 대한 열정은 새로운 기술과 도전을 향한 열망으로 이어지고 있습니다.
-                보안 분야에서의 끊임없는 변화에 발 맞추기 위해 항상 열려있는 자세를 가지고 있으며, 이를 통해 끊임없이 성장하고 발전하고자 합니다.
-                또한, 보안 이외에도 다양한 분야에 대한 관심과 호기심을 가지고 있습니다.
-                새로운 기술이나 아이디어를 배우고 적용하는 것을 즐기며, 항상 새로운 것을 배우고자 하는 열정이 있습니다.
+        <div style="display: flex;">
+            <img src="https://i.mydramalist.com/kwW2w_5c.jpg" alt="송숭우의 사진" style="margin-right: 20px;">
+            <p>
+                안녕하세요! 저는 보안 분야에 열정을 품은 대학생 송숭우입니다. 컴퓨터와 네트워크 보안에 대한 끊임없는 탐구와 관심을 가지고 있습니다.
+                현재는 학업을 중심으로 이론과 실습을 통해 보안 기술을 깊이 있게 이해하고 있습니다. 보안 분야에서의 끊임없는 변화에 발 맞추기 위해 항상 열려있는 자세를 가지고 있으며, 이를 통해 끊임없이 성장하고 발전하고자 합니다.
+                또한, 보안 이외에도 다양한 분야에 대한 관심과 호기심을 가지고 있습니다. 새로운 기술이나 아이디어를 배우고 적용하는 것을 즐기며, 항상 새로운 것을 배우고자 하는 열정이 있습니다.
                 제 포트폴리오를 통해 제가 어떤 사람인지 좀 더 자세히 알아주시면 감사하겠습니다!
             </p>
-        </section>
-        <br>
-        <section>
-            <h2>OS Lab1</h2>
-            <h3>프로젝트 소개</h3>
-            <p>FCFS, SPN, RR, SJF, MLFQ의 스케줄링 방식에 대한 CPU Scheduler Simulator 구현 및 Context Switch Time에 따른 Scheduling 결과 분석</p>
-            <h3>수행 업무</h3>
-            <p>- 각 CPU Scheduling 알고리즘 5종류의 구현</p>
-            <p>- 각 Workload에 대한 분석 및 보고서 작성</p>
-            <p>- 각 CPU Scheduling 알고리즘에 대한 구현 설명 보고서 작성</p>
-            <h3>출력 결과중 일부</h3>
-            <img src="images\스크린샷 2024-04-29 193521.png">
-        </section>     
-        <br>
-        <section>
-            <h2>보안 개론 Lab1</h2>
-            <h3>프로젝트 소개</h3>
-            <p>SQL Injection, XSS, Parameter 위변조 실습</p>
-            <h3>SQL Injection 풀이 과정</h3>
-            <p>1. id값에 다양한 bypass 구문을 넣어도 하나도 성공하지 못한다는 부분에서 password 부분을 공략해야겠다고 생각</p>
-            <p>2. password에 무조건 참이 되는 쿼리(" or userid="admin)를 삽입.</p>
-            <p>3. 위의 구문을 삽입하면 password="" or userid="admin"이라는 쿼리가 실행되어 무조건 참</p>
-            <p>4. 하지만 되지 않았고, 혹시 or을 필터링 했나 싶어 ||로 교체하고, 쓸모없는 공백을 제거하니 성공</p>
-            <p>삽입한 쿼리는 "||userid="admin </p>
-            <img src="images\녹음 2024-04-29 204519.gif">
+        </div>
+    </section>
+    <section>
+        <h2>OS Lab1</h2>
+        <h3>프로젝트 소개</h3>
+        <p>FCFS, SPN, RR, SJF, MLFQ의 스케줄링 방식에 대한 CPU Scheduler Simulator 구현 및 Context Switch Time에 따른 Scheduling 결과 분석</p>
+        <h3>수행 업무</h3>
+        <ul>
+            <li>각 CPU Scheduling 알고리즘 5종류의 구현</li>
+            <li>각 Workload에 대한 분석 및 보고서 작성</li>
+            <li>각 CPU Scheduling 알고리즘에 대한 구현 설명 보고서 작성</li>
+        </ul>
+        <h3>출력 결과중 일부</h3>
+        <img src="images\스크린샷 2024-04-29 193521.png" alt="프로젝트 스크린샷">
+    </section>
+    <section>
+        <h2>보안 개론 Lab1</h2>
+        <h3>프로젝트 소개</h3>
+        <p>SQL Injection, XSS, Parameter 위변조 실습</p>
+        <h3>SQL Injection 풀이 과정</h3>
+        <ol>
+            <li>id값에 다양한 bypass 구문을 넣어도 하나도 성공하지 못한다는 부분에서 password 부분을 공략해야겠다고 생각</li>
+            <li>password에 무조건 참이 되는 쿼리(" or userid="admin)를 삽입.</li>
+            <li>위의 구문을 삽입하면 password="" or userid="admin"이라는 쿼리가 실행되어 무조건 참</li>
+            <li>하지만 되지 않았고, 혹시 or을 필터링 했나 싶어 ||로 교체하고, 쓸모없는 공백을 제거하니 성공</li>
+            <li>삽입한 쿼리는 "||userid="admin</li>
+        </ol>
+        <img src="images\녹음 2024-04-29 204519.gif" alt="프로젝트 스크린샷">
     </section>
 </body>
+</html>
